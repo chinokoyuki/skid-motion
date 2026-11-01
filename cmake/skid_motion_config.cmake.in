@@ -1,0 +1,4 @@
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/skid_motion_targets.cmake")
+check_required_components(skid_motion)
